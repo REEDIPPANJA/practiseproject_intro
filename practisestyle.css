@@ -1,0 +1,376 @@
+h1{
+    margin-top: 10px;
+color:black;
+text-align: center;
+text-decoration-line: underline;
+
+}
+.para{
+    color:black;
+    text-align: justify;
+
+}
+li{
+    color: black;
+    list-style-type: none;/* this is used for removing bullet marks*/
+    display: inline-block;
+    font-size: medium;
+    margin-left: 20px;
+    text-align: right;
+
+    
+}
+a{
+ text-decoration: none;  /* this is used for removing underlines*/
+}
+.nav{
+    
+    height: 50px;
+    
+ 
+    display: flex;
+
+    padding-left: 1000px;
+    margin: 0;
+    margin-right: 20px;
+    
+ 
+    
+}
+a:hover{
+   
+    font-size: medium;
+    font-weight: bolder;
+    
+}
+.main{
+    height: 100vh;/*fit a div to window screen*/
+    width: 100vw;/*fit a div to window screen*/
+    background-image: url("bgimg.jpg");
+    background-size:contain;
+}
+.icon{
+   background-color:  #f1f1f1;
+   
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+.iconshawdow{
+    position: relative;
+    bottom: 25px;
+    left: 275px;
+    width: 300px;
+    height: 400px;
+    background-color: darkkhaki;
+    z-index: 5;
+
+}
+.image{
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    background-image: url("iconimg.jpg");
+    background-size: cover;
+
+
+}
+#iconimg{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    width: 300px;
+    height: 50px;
+    padding:0;
+    margin: 0;
+}
+#iconimgh2{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    width: 150px;
+    height: 30px;
+    padding:0;
+    margin: 0;
+    justify-content: center;
+}
+.iconinfo{
+    box-shadow: 0cqmin;
+    background-color: rgb(216, 211, 130);
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    z-index: 10;
+
+}
+.iconinfo_written{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.about{
+    
+    padding: 0;
+    margin: 20px;
+    height: 100px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+  
+}
+.large{
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+    height: 50px;
+    width: 300px; 
+    font-weight: bolder;
+    font-size:50px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.small{
+    display: flex;
+    justify-content:center;
+    padding-top: 0;
+    margin:0;
+    height: 25px;
+    width: 400px; 
+    font-size: 25px;
+    font-stretch: narrower;
+    font-weight: bolder;
+}
+
+
+.projects{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 20px;
+    
+    padding-left: 100px;
+    padding-right: 100px;
+    margin-top: 50px;
+    margin-right:20px;
+    height: 400px;
+    
+    background: #000;
+}
+.project1{
+    height: 350px;
+    width: 300px;
+    border-radius: 20px;
+    background:whitesmoke;
+}
+.project2{
+    height: 350px;
+    width: 300px;
+    border-radius: 20px;
+    background:whitesmoke;
+}
+.project3{
+    height: 350px;
+    width: 300px;
+    border-radius: 20px;
+    background:whitesmoke;
+}
+.education{
+    margin: 30px; ;
+    padding-left: 100px;
+    padding-right: 50px;
+    
+    height: 350px;
+    display: flex;
+    
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  
+   
+}
+.eduimg{
+    position: relative;
+    bottom: 10px;
+    padding-right: 50px;
+    opacity:1.5;
+    width: 350px;
+    height: 350px;
+   border-radius: 20px;
+    background-image: url("eduimg.jpeg");
+    background-size: cover; 
+}
+.eduinfo{
+   
+    height: 250px; 
+    border: 2px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 20px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    
+
+}
+#eduicon{
+
+    height: 30px;
+    width: 30px;
+
+}
+.footericon {
+    background-color: #f1f1f1;
+    text-align: center;
+    padding: 10px;
+    
+    bottom: 0;
+    width: 100%
+}
+img{
+    padding: 0;
+    margin: 0;
+    height: 20px;
+    width: 20px;
+}
+.skills{
+    padding-left: 200px;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: space-between;
+    }
+
+#skillicon{
+    position: relative;
+    left: 100px;
+    padding-right:500px;
+    opacity:1.5;
+    width: 350px;
+    height: 350px;
+    
+}
+.skillinfo{
+    padding:0;
+    height: 350px;
+    width: 500px;
+    
+    border-radius: 10px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: black;
+}
+
+#skill1{
+    padding: 0;
+    position:relative;
+    top: 100px;
+    left: 25px;
+    
+    height:60px;
+    width: 200px;
+  
+    border: 3px solid black;
+}
+#skill2{
+    padding: 0;
+    position:relative;
+    top :150px;
+    
+    left: 25px;
+    height:60px;
+    width: 200px;
+    
+    border: 3px solid black;
+}
+
+#skill3{
+    padding: 0;
+    position:relative;
+     left: 250px;
+     
+     bottom: 30px;
+    
+    height:60px;
+    width: 200px;
+   
+    border: 3px solid black;
+}
+#skillheading{
+    padding: 0;
+    position:relative;
+     left: 150px;
+     
+     bottom: 175px;
+    
+    height:60px;
+    width: 200px;
+   
+    border: 0px solid black;
+}
+#sheading{
+    font-family:'Times New Roman';
+}
+#skill5{
+    padding: 0;
+    position:relative;
+     right:226px;
+     
+     top:74px;
+    
+    height:60px;
+    width: 200px;
+   
+    border: 3px solid black;
+}
+#skilllevelp{
+    position: absolute;
+    bottom: 0px;
+    left:75px;
+    
+    height: 30px;
+    width: 100px;
+    padding: 0;
+    margin: 0;
+    font-size: larger;
+}
+#skillnamep3{
+    position: relative;
+    bottom: -7.5px;
+    left:75px;
+    font-weight: bolder;
+    height: 30px;
+    width: 100px;
+    padding: 0;
+    margin: 0;
+    font-size: larger;
+}
+#skillnamep{
+    align-items: center;
+    text-align: center;
+    font-weight: 800;
+    font-size: xx-large;
+    height: 30px;
+    position: absolute;
+    right: 75px;
+    top: -5px;
+
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+}
+#skilliconimg{
+    position: absolute;
+    top: 7.5px;
+    left:50px;
+}
